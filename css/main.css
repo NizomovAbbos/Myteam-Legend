@@ -1,11 +1,30 @@
+/* livvic-600 - latin */
+@font-face {
+    font-family: 'Livvic';
+    font-style: normal;
+    font-weight: 600;
+    src: local(''),
+         url('../fonts/livvic-v13-latin-600.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/livvic-v13-latin-600.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* livvic-700 - latin */
+@font-face {
+    font-family: 'Livvic';
+    font-style: normal;
+    font-weight: 700;
+    src: local(''),
+         url('../fonts/livvic-v13-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/livvic-v13-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
 
 /* ROOT */
 :root{
-    /* --header-bg-color: #fff; */
-    /* --main-bg-color: #fff; */
-    /* --main-text-color: #fff; */
+    --header-bg-color: #004047;
+    --main-bg-color: #002529;
+    --main-text-color: #fff;
+    --aside-bg-color: #F67E7E;
 }
-
 html{
     box-sizing: border-box;
     height: 100%;
@@ -23,8 +42,8 @@ body{
     flex-direction: column;
     height: 100%;
     margin: 0;
-    font-family: "Arial", sans-serif;
-    font-weight: 400;
+    font-family: "Livvic", sans-serif;
+    font-weight: 600;
     background-color: #fff;
 }
 
@@ -48,7 +67,7 @@ img{
 
 .container{
     width: 100%;
-    max-width: 1240px;
+    max-width: 1150px;
     margin-right: auto;
     margin-left: auto;
     padding-right: 20px;
