@@ -75,6 +75,98 @@ img{
     padding-left: 20px;
 }
 
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+/*************** SITE HEADER HERO STYLES START *****************/
+/* HEADER STYLES START */
+.header-top {
+    width: 100%;
+    background-color: var(--header-bg-color);
+}
+
+.site-header__wrapper{
+    padding-top: 77px;
+    padding-bottom: 129px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.site-header__wrapper-start{
+    display: flex;
+    align-items: center;
+    gap: 80px;
+} 
+
+.site-nav__list{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.site-nav__link{
+    color: var(--main-text-color);
+}
+
+.btn{
+    padding: 9px 32px 11px 32px;
+    border: 2px solid #FFFFFF;
+    border-radius: 24px;
+    background-color: var(--header-bg-color);
+    color: var(--main-text-color);
+}
+/* HEADER STYLES END */
+
+/* HERO SECTION STYLES START */
+.hero-section__wrapper{
+    position: relative;
+    padding-bottom: 250px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.hero-section__disc-left{
+    position: absolute;
+    margin-left: -265px;
+}
+
+.hero-section__title{
+    margin: 0;
+    width: 635px;
+    height: 200px;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 100px;
+    color: var(--main-text-color);
+}
+
+.title-end{
+    color: var(--aside-bg-color);
+}
+
+.hero-section__text{
+    margin-top: 79px;
+    width: 445px;
+    height: 112px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    color: var(--main-text-color);
+}
+
+.hero-section__disk-bottom{
+    position: absolute;
+    margin-top: 628px;
+    margin-left: 752px;
+}
+
+/* HERO SECTION STYLES END */
+/*************** SITE HEADER HERO STYLES END *****************/
 /* MAIN STYLE START */
 
     /* TEAMS SECTION STYLE START */
@@ -457,5 +549,3 @@ img{
     /* DELIVERING SECTION STYLE END */
 
 /* MAIN STYLE END */
-
-
