@@ -83,7 +83,7 @@ a{
 }
 /*************** SITE HEADER HERO STYLES START *****************/
 /* HEADER STYLES START */
-.header-top {
+.site-header {
     width: 100%;
     background-color: var(--header-bg-color);
 }
@@ -112,7 +112,7 @@ a{
     color: var(--main-text-color);
 }
 
-.btn{
+.site-header__link{
     padding: 9px 32px 11px 32px;
     border: 2px solid #FFFFFF;
     border-radius: 24px;
@@ -122,6 +122,9 @@ a{
 /* HEADER STYLES END */
 
 /* HERO SECTION STYLES START */
+.hero-section{
+    background-color:var(--header-bg-color);
+}
 .hero-section__wrapper{
     position: relative;
     padding-bottom: 250px;
